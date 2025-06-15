@@ -9,7 +9,7 @@ export default function LoginPage() {
 
   const handleLogin = async () => {
   try {
-    const response = await axios.post("http://localhost:3000/api/auth/login", {
+    const response = await axios.post("https://e-commerce-platform-backend-0zgb.onrender.com/api/auth/login", {
       email,
       password,
     });

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/cart";
+const API_URL = "https://e-commerce-platform-backend-0zgb.onrender.com/api/cart";
 
 const api = axios.create({
   baseURL: API_URL,
