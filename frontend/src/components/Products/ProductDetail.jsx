@@ -39,7 +39,7 @@ export default function ProductDetail({ product }) {
         </p>
         <p>
           <span className="font-semibold">Price:</span>{" "}
-          <span className="text-green-600 font-bold">${product.price}</span>
+          <span className="text-green-600 font-bold">₹{product.price}</span>
         </p>
         <p>
           <span className="font-semibold">Category:</span> {product.category}
