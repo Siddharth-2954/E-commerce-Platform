@@ -114,7 +114,7 @@ export default function CartPage() {
                     <h3 className="text-lg font-medium text-gray-900">{product.name}</h3>
                     <p className="mt-1 text-sm text-gray-500">{product.description}</p>
                     <p className="mt-2 text-sm font-medium text-gray-900">
-                      ${product.price.toFixed(2)}
+                      ₹{product.price.toFixed(2)}
                     </p>
                   </div>
 
@@ -153,7 +153,7 @@ export default function CartPage() {
           <div className="bg-gray-50 px-6 py-4">
             <div className="flex justify-between items-center">
               <div className="text-lg font-medium text-gray-900">Total</div>
-              <div className="text-2xl font-bold text-gray-900">${total.toFixed(2)}</div>
+              <div className="text-2xl font-bold text-gray-900">₹{total.toFixed(2)}</div>
             </div>
             <div className="mt-6">
               <button
