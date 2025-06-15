@@ -22,7 +22,7 @@ export default function ProductList({ products, onSelect }) {
             className="w-full h-48 object-cover rounded-md mb-4"
           />
           <h3 className="font-semibold text-xl mb-2 text-center">{product.name}</h3>
-          <p className="text-green-600 font-bold text-lg">${product.price}</p>
+          <p className="text-green-600 font-bold text-lg">₹{product.price}</p>
         </div>
       ))}
     </div>
