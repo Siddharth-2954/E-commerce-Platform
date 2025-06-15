@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 
 const corsOptions = {
-  origin: "http://localhost:5173",  // your frontend URL
+  origin: "https://e-commerce-platform-frontend-kn18.onrender.com",  // your frontend URL
   optionsSuccessStatus: 200,
 };
 
